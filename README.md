@@ -2,10 +2,20 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.6 — Monnayeur épuré et pièce de 50 centimes
+
+- La page d'accueil affiche d'abord le logo **ARCADIA BREAKOUT**, puis **INSERT COIN**.
+- Le pied de page redevient neutre : il n'annonce plus le secret.
+- Quatre pièces virtuelles disposées en **2 × 2** : 50 centimes, 1 franc, 2 francs, 5 francs.
+- **50 centimes** : partie classique à 3 vies ; même enregistrement de record que le jeu classique historique.
+- Les légendes révélant les avantages, la phrase d'explication et le bouton Mode classique sont retirés : seuls les noms des pièces et Retour au jeu restent.
+- Le message « CREDIT ACCEPTED » n'apparaît que durant l'animation d'insertion.
+- Les trois autres pièces et leur gameplay, les records séparés et les sauvegardes restent inchangés.
+
 ## V1.5 — Easter egg INSERT COIN
 
 - Toucher le texte **★ INSERT COIN ★** en haut du jeu pour ouvrir un monnayeur rétro 8-bit (création graphique, pas photo).
-- Trois pièces françaises stylisées façon arcade, dont **2 francs polygonale 1993** fidèle aux grandes lignes de la référence apportée par le testeur.
+- Pièces françaises stylisées façon arcade, dont **2 francs polygonale 1993** fidèle aux grandes lignes de la référence apportée par le testeur.
 - Appuyer sur la pièce déclenche une animation en escalier vers la fente, des petits bips originaux et **CREDIT ACCEPTÉ** ; le nouveau mode démarre après l'animation.
 - Pièces **virtuelles**, sans achat ni paiement.
 - **Classique** : 3 vies, bonus habituels.
@@ -16,7 +26,7 @@ Casse-briques rétro original, conçu pour téléphone en portrait, indépendant
 - La sauvegarde locale inclut le mode de pièce pour pouvoir reprendre une partie dans les mêmes conditions.
 - Depuis une partie en cours, l'ouverture du monnayeur met en pause. **Insérer une nouvelle pièce démarre une nouvelle partie** : la progression précédente est remplacée.
 - L'interface du monnayeur est fermable avec Retour au jeu ou ✕, et n'affecte pas la sauvegarde si aucune pièce n'est insérée.
-- Le bouton **Mode classique · 3 vies** permet de revenir aux règles de base, sans effacer les records. Il commence une nouvelle partie.
+- Depuis la V1.6, insérer **50 centimes** permet de revenir au mode classique.
 
 ## V1.4.1 — Easter egg Goldorak
 
