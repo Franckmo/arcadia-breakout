@@ -2,6 +2,16 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.4.1 — Easter egg Goldorak
+
+- Utilise le Spazer détouré depuis l'image fournie, sous forme d'une ressource WebP transparente, `spazer.webp` (~3,5 Ko).
+- Passage **de haut-gauche vers bas-droite** en environ 4,5 secondes, derrière les briques et sans collision.
+- Largeur **98 unités Canvas** sur 360 (~27 % du terrain), opacité **17 %** pour ne pas gêner la partie.
+- Tirage indépendant à chaque niveau : **15 % aucun passage**, **65 % un passage**, **20 % deux passages**.
+- Le premier passage survient après ~10–25 secondes de jeu actif ; le second, si prévu, après une attente supplémentaire aléatoire.
+- L'animation s'arrête en pause et le calendrier des passages fait partie de la sauvegarde ; la reprise n'en génère pas artificiellement davantage.
+- Ressource ajoutée au cache offline de la PWA.
+
 ## V1.4 — Vitesse et sauvegarde locale
 
 - Chaque niveau augmente la vitesse de balle de départ : environ **3,9 unités/frame** au niveau 1, **6,4 au niveau 7**, plafond **8,6** pour le lancement.
