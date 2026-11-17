@@ -2,6 +2,21 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.5 — Easter egg INSERT COIN
+
+- Toucher le texte **★ INSERT COIN ★** en haut du jeu pour ouvrir un monnayeur rétro 8-bit (création graphique, pas photo).
+- Trois pièces françaises stylisées façon arcade, dont **2 francs polygonale 1993** fidèle aux grandes lignes de la référence apportée par le testeur.
+- Appuyer sur la pièce déclenche une animation en escalier vers la fente, des petits bips originaux et **CREDIT ACCEPTÉ** ; le nouveau mode démarre après l'animation.
+- Pièces **virtuelles**, sans achat ni paiement.
+- **Classique** : 3 vies, bonus habituels.
+- **1 franc** : 5 vies.
+- **2 francs** : 5 vies et bonus traversante activé pendant les 12 premières secondes de jeu.
+- **5 francs** : aucune vie perdue, et balle traversante permanente à chaque niveau, y compris après perte d'une balle.
+- Les records sont **séparés par mode** (classique, 1F, 2F, 5F). Le record classique historique est conservé dans sa clé d'origine.
+- La sauvegarde locale inclut le mode de pièce pour pouvoir reprendre une partie dans les mêmes conditions.
+- Depuis une partie en cours, l'ouverture du monnayeur met en pause. **Insérer une nouvelle pièce démarre une nouvelle partie** : la progression précédente est remplacée.
+- L'interface du monnayeur est fermable avec Retour au jeu ou ✕, et n'affecte pas la sauvegarde si aucune pièce n'est insérée.
+
 ## V1.4.1 — Easter egg Goldorak
 
 - Utilise le Spazer détouré depuis l'image fournie, sous forme d'une ressource WebP transparente, `spazer.webp` (~3,5 Ko).
