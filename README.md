@@ -2,6 +2,13 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.1 — Bonus et immersion
+
+- Bonus tombant **3** : transforme la balle en **trois balles simultanées** (rattraper le bonus avec la raquette)
+- Bonus tombant **F** : **balle traversante** pendant 12 secondes, détruit les briques successives sans rebondir
+- Mode plein écran PWA Android et bouton « ⛶ ÉCRAN » en cours de partie
+- La barre de navigation système Android reste sous le contrôle du téléphone : un geste peut la réafficher
+
 ## V1
 
 - Balle ronde, briques colorées, raquette contrôlée au doigt, à la souris ou aux flèches du clavier
