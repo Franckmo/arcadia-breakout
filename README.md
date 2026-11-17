@@ -2,6 +2,13 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.3.2 — Passage de niveau visible et actualisation
+
+- Affiche un écran **NIVEAU 02 / PYRAMIDE** avant de lancer le niveau suivant, et ainsi de suite.
+- Le bouton **CONTINUER** n'efface plus la partie et ne réinitialise ni score ni vies.
+- Vérifie la version du jeu en revenant dans la PWA et périodiquement, recharge si une mise à jour est publiée.
+- Pour passer au niveau suivant, détruire toutes les briques du niveau courant ; un Game Over recommence au niveau 1.
+
 ## V1.3 — Niveaux variés et bonus rares
 
 - 10 dispositions de briques distinctes : Classique, Pyramide, Damier, Vagues, Forteresse, Invaders, Zigzag, Arcades, Escalier et Final rétro.
