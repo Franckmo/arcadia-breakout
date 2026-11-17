@@ -6,7 +6,7 @@ Casse-briques rétro original, conçu pour téléphone en portrait, indépendant
 
 - 10 dispositions de briques distinctes : Classique, Pyramide, Damier, Vagues, Forteresse, Invaders, Zigzag, Arcades, Escalier et Final rétro.
 - Après le niveau 10, le cycle de formes repart avec difficulté accrue et couleurs décalées.
-- Bonus limités à **2 maximum par niveau**, avec au moins 12 briques détruites entre deux déclenchements, et une probabilité de 9 % par brique éligible.
+- Bonus **aléatoires sans plafond par niveau** : 9 % de chance par brique éligible, avec au moins 5 briques détruites entre deux tirages réussis et au maximum deux capsules simultanément à l'écran.
 - La progression, les vies restantes et le score sont conservés en passant au niveau suivant. Le record reste dans le stockage local.
 
 ## V1.2 — Six bonus à récupérer avec la raquette
