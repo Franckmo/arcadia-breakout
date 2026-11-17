@@ -2,6 +2,16 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.4 — Vitesse et sauvegarde locale
+
+- Chaque niveau augmente la vitesse de balle de départ : environ **3,9 unités/frame** au niveau 1, **6,4 au niveau 7**, plafond **8,6** pour le lancement.
+- Les rebonds accélèrent légèrement le jeu, avec vitesse plafonnée à 9,1 unités/frame.
+- La partie est enregistrée automatiquement toutes les 2 secondes en jeu, et lors d'une pause, d'un changement de niveau, d'une sortie d'application ou d'une actualisation.
+- La sauvegarde inclut score, niveau, vies, briques détruites, balles en mouvement, bonus et effets temporaires.
+- Au lancement, un écran **PARTIE SAUVEGARDÉE** propose **CONTINUER** ou **NOUVELLE PARTIE**.
+- La reprise s'effectue en pause ; après un **Game Over**, la sauvegarde de partie est supprimée mais le record personnel reste conservé.
+- Les données sont enregistrées avec `localStorage` sur le navigateur/appareil utilisé : **pas de synchronisation entre appareils**, et effacer les données de Chrome/PWA peut supprimer la partie.
+
 ## V1.3.2 — Passage de niveau visible et actualisation
 
 - Affiche un écran **NIVEAU 02 / PYRAMIDE** avant de lancer le niveau suivant, et ainsi de suite.
