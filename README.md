@@ -2,6 +2,19 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.2 — Six bonus à récupérer avec la raquette
+
+Les capsules sont lâchées aléatoirement lors de la destruction des briques :
+
+- **3** : multiballe, deux balles supplémentaires
+- **F** : traversante, détruit les briques sans rebondir pendant 12 secondes
+- **X** : raquette XXL pendant 15 secondes
+- **S** : ralentissement des balles pendant 12 secondes
+- **+** : vie supplémentaire (maximum 5 vies)
+- **L** : laser automatique pendant 10 secondes (deux tirs réguliers)
+
+Chaque capsule descend jusqu'à la raquette. Les bonus sont volontaires : on peut laisser passer une capsule. Apparition rare (environ 13 % par brique détruite).
+
 ## V1.1 — Bonus et immersion
 
 - Bonus tombant **3** : transforme la balle en **trois balles simultanées** (rattraper le bonus avec la raquette)
