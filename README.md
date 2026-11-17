@@ -2,6 +2,17 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.7 — Malus et briques spéciales
+
+- **Malus Turbo (!) :** balle accélérée x1,45 pendant 9 secondes. Retour à la vitesse normale après expiration.
+- **Malus Mini (-) :** raquette réduite à 39 unités (contre ~72) pendant 12 secondes, puis taille normale.
+- Les deux malus apparaissent aléatoirement parmi les bonus existants, sans créer de nouvelles capsules systématiques. Le ralentissement neutralise Turbo et la raquette XXL neutralise Mini.
+- Dès le **niveau 2**, certaines briques renforcées demandent **2 impacts** pour disparaître. Leur apparence se fissure/change après le premier coup.
+- Dès le **niveau 4**, jusqu'à **2 briques métalliques indestructibles** apparaissent et font rebondir la balle même en mode traversante. Les tirs laser ne les détruisent pas.
+- **Fin de niveau :** seules les briques destructibles doivent être éliminées ; les indestructibles ne bloquent jamais le passage au niveau suivant.
+- Les HP des briques et les durées des malus font partie de la sauvegarde. Les anciennes sauvegardes V1.6 sont reprises avec des briques à 1 HP.
+- La progression et les modes monnayeur restent inchangés.
+
 ## V1.6 — Monnayeur épuré et pièce de 50 centimes
 
 - La page d'accueil affiche d'abord le logo **ARCADIA BREAKOUT**, puis **INSERT COIN**.
