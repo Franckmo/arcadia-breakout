@@ -39,7 +39,7 @@
 const C=document.getElementById('game'), ctx=C.getContext('2d'),frame=document.getElementById('frame'),overlay=document.getElementById('overlay'),head=document.getElementById('headline'),message=document.getElementById('overlay-text'),start=document.getElementById('start'),scoreEl=document.getElementById('score'),bestEl=document.getElementById('best'),info=document.getElementById('game-info'),pauseBtn=document.getElementById('pause'),soundBtn=document.getElementById('sound'),fullBtn=document.getElementById('fullscreen'),bonusStatus=document.getElementById('bonus-status'),newGameBtn=document.getElementById('new-game');
 const W=360,H=540,cols=9,rows=5,bw=34,bh=14,stepX=38,stepY=23,left=11,top=55,paddleY=492;
 const colors=['#f3775c','#f1a44b','#f2d46b','#59c4ce','#8276c3'];
-const BUILD='2026-11-17-coin-easteregg-v15';
+const BUILD='2026-11-17-coin-easteregg-v15-final';
 let state='menu',score=0,best=0,lives=3,level=1,bricks=[],paddle={x:144,w:72,h:10},ball={x:180,y:480,vx:2.4,vy:-3.4,r:5},lastTime=0,accumulator=0,soundOn=true,audio=null,stars=[],touching=false,raf=0,balls=[],drops=[],pierceTicks=0,wideTicks=0,slowTicks=0,laserTicks=0,laserShots=[],laserCooldown=0,bonusSpawned=0,bricksSinceBonus=0,flashText='',flashTicks=0,lastSavedAt=0,coinMode='classic',coinBusy=false,flightClock=0,flightQuota=0,flightCount=0,nextFlightAt=0,flightProgress=-1;
 const spazerImage=new Image();spazerImage.src='./spazer.webp';
 function scheduleFlights(){flightClock=0;flightCount=0;flightProgress=-1;const roll=Math.random();flightQuota=roll<.15?0:roll<.80?1:2;nextFlightAt=600+Math.floor(Math.random()*900)}
