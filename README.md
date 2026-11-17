@@ -2,6 +2,13 @@
 
 Casse-briques rétro original, conçu pour téléphone en portrait, indépendant des autres projets Arcadia.
 
+## V1.3 — Niveaux variés et bonus rares
+
+- 10 dispositions de briques distinctes : Classique, Pyramide, Damier, Vagues, Forteresse, Invaders, Zigzag, Arcades, Escalier et Final rétro.
+- Après le niveau 10, le cycle de formes repart avec difficulté accrue et couleurs décalées.
+- Bonus limités à **2 maximum par niveau**, avec au moins 12 briques détruites entre deux déclenchements, et une probabilité de 9 % par brique éligible.
+- La progression, les vies restantes et le score sont conservés en passant au niveau suivant. Le record reste dans le stockage local.
+
 ## V1.2 — Six bonus à récupérer avec la raquette
 
 Les capsules sont lâchées aléatoirement lors de la destruction des briques :
@@ -13,7 +20,7 @@ Les capsules sont lâchées aléatoirement lors de la destruction des briques :
 - **+** : vie supplémentaire (maximum 5 vies)
 - **L** : laser automatique pendant 10 secondes (deux tirs réguliers)
 
-Chaque capsule descend jusqu'à la raquette. Les bonus sont volontaires : on peut laisser passer une capsule. Apparition rare (environ 13 % par brique détruite).
+Chaque capsule descend jusqu'à la raquette. Les bonus sont volontaires : on peut laisser passer une capsule. Apparition rare (voir les limites V1.3 ci-dessus).
 
 ## V1.1 — Bonus et immersion
 
