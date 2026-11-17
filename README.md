@@ -16,6 +16,7 @@ Casse-briques rétro original, conçu pour téléphone en portrait, indépendant
 - La sauvegarde locale inclut le mode de pièce pour pouvoir reprendre une partie dans les mêmes conditions.
 - Depuis une partie en cours, l'ouverture du monnayeur met en pause. **Insérer une nouvelle pièce démarre une nouvelle partie** : la progression précédente est remplacée.
 - L'interface du monnayeur est fermable avec Retour au jeu ou ✕, et n'affecte pas la sauvegarde si aucune pièce n'est insérée.
+- Le bouton **Mode classique · 3 vies** permet de revenir aux règles de base, sans effacer les records. Il commence une nouvelle partie.
 
 ## V1.4.1 — Easter egg Goldorak
 
