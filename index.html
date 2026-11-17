@@ -120,7 +120,24 @@ if(b.x<b.r){b.x=b.r;b.vx=Math.abs(b.vx);beep(220,.02)}
 if(b.x>W-b.r){b.x=W-b.r;b.vx=-Math.abs(b.vx);beep(220,.02)}
 if(b.y<b.r+4){b.y=b.r+4;b.vy=Math.abs(b.vy);beep(220,.02)}
 if(b.vy>0&&oldY+b.r<=paddleY&&b.y+b.r>=paddleY&&b.x>=paddle.x-b.r&&b.x<=paddle.x+paddle.w+b.r){b.y=paddleY-b.r;const hit=Math.max(-1,Math.min(1,(b.x-(paddle.x+paddle.w/2))/(paddle.w/2)));const speed=Math.min(9.1,Math.max(levelSpeed()*(slowTicks>0?.7:1),Math.hypot(b.vx,b.vy)+.035));b.vx=Math.max(-speed*.88,Math.min(speed*.88,hit*speed*.9));b.vy=-Math.sqrt(Math.max(2,speed*speed-b.vx*b.vx));beep(420,.035)}
-for(const brick of bricks){if(!brick.alive)continue;if(b.x+b.r>brick.x&&b.x-b.r<brick.x+brick.w&&b.y+b.r>brick.y&&b.y-b.r<brick.y+brick.h){destroyBrick(brick);if(!isPiercing()){const side=oldX+b.r<=brick.x||oldX-b.r>=brick.x+brick.w;if(side)b.vx*=-1;else b.vy*=-1}beep(isPiercing()?760:340,.04);if(!isPiercing())break}}
+for(const brick of bricks){
+if(!brick.alive)continue;
+const overlapping=b.x+b.r>brick.x&&b.x-b.r<brick.x+brick.w&&b.y+b.r>brick.y&&b.y-b.r<brick.y+brick.h;
+if(!overlapping)continue;
+if(b.lastBrickId===brick.id)continue;
+b.lastBrickId=brick.id;
+damageBrick(brick);
+const mustBounce=brick.stone||!isPiercing();
+if(mustBounce){
+const side=oldX+b.r<=brick.x||oldX-b.r>=brick.x+brick.w;
+if(side){b.vx*=-1;b.x=oldX}else{b.vy*=-1;b.y=oldY}
+break;
+}
+}
+if(b.lastBrickId!==undefined){
+const last=bricks.find(brick=>brick.id===b.lastBrickId&&brick.alive);
+if(!last||!(b.x+b.r>last.x&&b.x-b.r<last.x+last.w&&b.y+b.r>last.y&&b.y-b.r<last.y+last.h))b.lastBrickId=undefined;
+}
 }
 balls=balls.filter(b=>b.y<=H+b.r);
 if(bricks.every(b=>b.stone||!b.alive)){score+=100*level;setBest();nextLevel();return}
